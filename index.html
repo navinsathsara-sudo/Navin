@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dental Clinic | Tokyo</title>
+    <!-- Google Fonts for a Pro Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">🦷 Advanced Dental</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="btn-primary">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="hero-content reveal">
+                <h1>Comprehensive Care for Your <br>Brightest Smile</h1>
+                <p>Welcome to Advanced Dental Clinic. We combine modern technology with a gentle touch to provide the best dental experience in Tokyo.</p>
+                <a href="#contact" class="btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about container section-padding">
+        <div class="about-text reveal">
+            <span style="color: var(--primary-color); font-weight: 700; letter-spacing: 1px;">ABOUT US</span>
+            <h2>Welcome to Our Clinic</h2>
+            <p>We are dedicated to providing friendly and gentle dental care in a comfortable environment. Your dental health is our top priority, and we strive to make every visit a positive experience.</p>
+            <p>Our team of specialists uses the latest technology to ensure precise diagnostics and effective treatments tailored to your needs.</p>
+            <a href="#" style="color: var(--primary-color); font-weight: 600;">Meet Our Team &rarr;</a>
+        </div>
+        <div class="about-image reveal">
+            <!-- Placeholder for Main Visual. Replace src with /images/mainvisual.jpg -->
+            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=1000" alt="Dentist Team">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section section-padding">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">High-quality treatments for the whole family.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal">
+                    <span class="service-icon">🦷</span>
+                    <h3>General Dentistry</h3>
+                    <p>Routine cleanings, fillings, and preventative care to keep your smile healthy.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card reveal">
+                    <span class="service-icon">✨</span>
+                    <h3>Teeth Whitening</h3>
+                    <p>Professional whitening services to brighten your smile safely and effectively.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card reveal">
+                    <span class="service-icon">⚙️</span>
+                    <h3>Orthodontics</h3>
+                    <p>Modern solutions for straightening teeth, including clear aligners and braces.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card reveal">
+                    <span class="service-icon">🛡️</span>
+                    <h3>Implants</h3>
+                    <p>Permanent and natural-looking solutions for replacing missing teeth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Improved Layout) -->
+    <section id="gallery" class="container section-padding">
+        <div class="text-center reveal">
+            <h2 class="section-title">Clinic Gallery</h2>
+            <p class="section-subtitle">A tour of our modern facilities.</p>
+        </div>
+
+        <div class="gallery-grid reveal">
+            <!-- Image 1 -->
+            <div class="gallery-item">
+                <!-- Replace src with /images/image.jpg -->
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800" alt="Clinic Interior">
+                <div class="gallery-overlay">Waiting Area</div>
+            </div>
+            <!-- Image 2 -->
+            <div class="gallery-item">
+                <!-- Replace src with /images/image2.jpeg.webp -->
+                <img src="images/mainvisual.jpg" alt="Treatment Room">
+                <div class="gallery-overlay">Treatment Room</div>
+            </div>
+            <!-- Image 3 (New) -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800" alt="Equipment">
+                <div class="gallery-overlay">Modern Equipment</div>
+            </div>
+            <!-- Image 4 (New) -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&q=80&w=800" alt="Smile">
+                <div class="gallery-overlay">Happy Patients</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info & Contact Section -->
+    <section id="contact" class="services-section section-padding" style="background: white;">
+        <div class="container reveal">
+            <div class="text-center">
+                <h2 class="section-title">Visit Us</h2>
+                <p class="section-subtitle">We are here to help you smile.</p>
+            </div>
+
+            <div class="info-wrapper">
+                <!-- Hours Column -->
+                <div class="info-col">
+                    <h3>Consultation Hours</h3>
+                    <table class="hours-table">
+                        <tr><td>Mon - Fri</td><td>9:00 AM – 7:00 PM</td></tr>
+                        <tr><td>Saturday</td><td>10:00 AM – 4:00 PM</td></tr>
+                        <tr><td>Sunday</td><td>Closed</td></tr>
+                    </table>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="info-col">
+                    <h3>Contact Details</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Address</strong><br>
+                            123 Smile Avenue, Tokyo, Japan
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +81 90-1234-5678
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            info@advanceddental.jp
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#" class="footer-logo">🦷 Advanced Dental</a>
+            <p>Providing exceptional dental care since 2010.</p>
+            <div class="copyright">
+                <p>&copy; 2026 Advanced Dental Clinic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Animations -->
+    <script>
+        // Wait for DOM to load
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // Function to handle scroll animations
+            const revealOnScroll = () => {
+                const reveals = document.querySelectorAll('.reveal');
+                const windowHeight = window.innerHeight;
+                const elementVisible = 150; // How much of element should be visible to trigger
+
+                reveals.forEach((reveal) => {
+                    const elementTop = reveal.getBoundingClientRect().top;
+                    
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveal.classList.add('active');
+                    }
+                });
+            };
+
+            // Trigger once on load
+            revealOnScroll();
+
+            // Add scroll event listener
+            window.addEventListener('scroll', revealOnScroll);
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
